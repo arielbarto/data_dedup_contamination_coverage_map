@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "arielbarto-injectguard_jd339"
+name = "arielbarto-data_dedup_contamination_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出提示注入防护工程师·数据去重与污染检测的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://arielbarto.github.io"
-Repository = "https://github.com/arielbarto/injectguard_jd339"
-Issues = "https://github.com/arielbarto/injectguard_jd339/issues"
+Repository = "https://github.com/arielbarto/data_dedup_contamination_coverage_map"
+Issues = "https://github.com/arielbarto/data_dedup_contamination_coverage_map/issues"
 
 [project.scripts]
-injectguard_jd339 = "injectguard_jd339:main"
+data_dedup_contamination_coverage_map = "data_dedup_contamination_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["injectguard_jd339"]
+py-modules = ["data_dedup_contamination_coverage_map"]
